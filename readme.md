@@ -10,6 +10,6 @@ For this project I used
 	- Express
 	- EJS
 
-[IMG][1]
+![][image-1]
 
-[1]:	http://i305.photobucket.com/albums/nn238/kingobie1/Screen%20Shot%202016-09-29%20at%206.31.03%20PM.png
+[image-1]:	http://i305.photobucket.com/albums/nn238/kingobie1/Screen%20Shot%202016-09-29%20at%206.31.03%20PM.png
