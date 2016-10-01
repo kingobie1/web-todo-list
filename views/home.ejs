@@ -7,7 +7,12 @@
 
 	<ul>
 		<% todos.forEach(function(todo) { %>
-			<li><span><i class="fa fa-trash-o" aria-hidden="true"></i></span> <%= todo.task %></li>
+			<li>
+				<span class="delete">
+					<i class="fa fa-trash-o" aria-hidden="true"></i>
+				</span> 
+				<span class="todoItem"><%= todo.item %></span>
+			</li>
 		<% }); %>
 	</ul>
 </div>

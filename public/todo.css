@@ -1,8 +1,16 @@
 body {
-	background: #232526; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+	
+	/* background: #232526; /* fallback for old browsers */
+	/* background: -webkit-linear-gradient(to top, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+	/* background: linear-gradient(to top, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+
+	background: #e52d27; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #e52d27 , #b31217); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #e52d27 , #b31217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -72,7 +80,7 @@ li {
 	color: #666;
 }
 
-li:hover span{
+li:hover .delete{
 	width: 40px;
 	opacity: 1.0;
 }
@@ -85,7 +93,7 @@ li:nth-child(2n) {
 	margin-bottom: 70px;
 }*/
 
-span {
+.delete {
 	background: #e54d42;
 	color: white;
 	height: 40px;
